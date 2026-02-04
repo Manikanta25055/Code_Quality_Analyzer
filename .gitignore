@@ -41,9 +41,8 @@ wheels/
 data/raw_repos/*
 !data/raw_repos/.gitkeep
 
-# Models (can be large)
-models/*.pkl
-models/*.joblib
+# Models (allow small trained models for reproducibility)
+# models/*.pkl  # Commented out to include trained models in repo
 
 # Temporary files
 *.log
