@@ -1,0 +1,36 @@
+repo_name,failure_reason,category
+EbookFoundation/free-programming-books,No Python files found,No Python Files
+Significant-Gravitas/AutoGPT,ZIP extraction error - not a valid zip file,ZIP Format Error
+langflow-ai/langflow,ZIP extraction error - not a valid zip file,ZIP Format Error
+521xueweihan/HelloGitHub,No Python files found,No Python Files
+pytorch/pytorch,ZIP extraction error - not a valid zip file,ZIP Format Error
+fastapi/fastapi,No Python files found,No Python Files
+PaddlePaddle/PaddleOCR,ZIP extraction error - not a valid zip file,ZIP Format Error
+hiyouga/LlamaFactory,No Python files found,No Python Files
+labmlai/annotated_deep_learning_paper_implementations,ZIP extraction error - not a valid zip file,ZIP Format Error
+localstack/localstack,No Python files found,No Python Files
+FoundationAgents/MetaGPT,No Python files found,No Python Files
+anthropics/skills,No Python files found,No Python Files
+openinterpreter/open-interpreter,No Python files found,No Python Files
+OpenBB-finance/OpenBB,ZIP extraction error - not a valid zip file,ZIP Format Error
+pathwaycom/pathway,ZIP extraction error - not a valid zip file,ZIP Format Error
+microsoft/autogen,No Python files found,No Python Files
+harry0703/MoneyPrinterTurbo,ZIP extraction error - not a valid zip file,ZIP Format Error
+odoo/odoo,ZIP extraction error - not a valid zip file,ZIP Format Error
+run-llama/llama_index,ZIP extraction error - not a valid zip file,ZIP Format Error
+oobabooga/text-generation-webui,No Python files found,No Python Files
+crewAIInc/crewAI,ZIP extraction error - not a valid zip file,ZIP Format Error
+streamlit/streamlit,No Python files found,No Python Files
+getsentry/sentry,ZIP extraction error - not a valid zip file,ZIP Format Error
+hiroi-sora/Umi-OCR,ZIP extraction error - not a valid zip file,ZIP Format Error
+gradio-app/gradio,ZIP extraction error - not a valid zip file,ZIP Format Error
+deepspeedai/DeepSpeed,ZIP extraction error - not a valid zip file,ZIP Format Error
+ray-project/ray,ZIP extraction error - not a valid zip file,ZIP Format Error
+exo-explore/exo,No Python files found,No Python Files
+ccxt/ccxt,No Python files found,No Python Files
+H2K804/CycleGAN-medical-image-segmentation,No Python files found,No Python Files
+sundios/google-visibility-score,No Python files found,No Python Files
+cqu20160901/yolov11_deploymethods,ZIP extraction error - not a valid zip file,ZIP Format Error
+kerrickstaley/extracting-chinese-subs,ZIP extraction error - not a valid zip file,ZIP Format Error
+Flionay/segmentation-learning-experiment,ZIP extraction error - not a valid zip file,ZIP Format Error
+thaipduong/SE3HamDL,ZIP extraction error - not a valid zip file,ZIP Format Error

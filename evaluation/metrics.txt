@@ -1,0 +1,54 @@
+======================================================================
+Code Quality Prediction Model - Evaluation Results
+======================================================================
+
+Best Model: Random Forest
+
+Model Comparison:
+----------------------------------------------------------------------
+
+Random Forest:
+  CV Accuracy:    0.7412 (+/- 0.1152)
+  Test Accuracy:  0.7826
+  Precision:      0.8000
+  Recall:         0.5000
+  F1-Score:       0.6154
+  ROC-AUC:        0.7250
+
+Gradient Boosting:
+  CV Accuracy:    0.7641 (+/- 0.1132)
+  Test Accuracy:  0.5652
+  Precision:      0.4000
+  Recall:         0.5000
+  F1-Score:       0.4444
+  ROC-AUC:        0.6833
+
+SVM:
+  CV Accuracy:    0.7301 (+/- 0.1024)
+  Test Accuracy:  0.7391
+  Precision:      0.7500
+  Recall:         0.3750
+  F1-Score:       0.5000
+  ROC-AUC:        0.7833
+
+Logistic Regression:
+  CV Accuracy:    0.7529 (+/- 0.0559)
+  Test Accuracy:  0.6522
+  Precision:      0.5000
+  Recall:         0.5000
+  F1-Score:       0.5000
+  ROC-AUC:        0.7500
+
+======================================================================
+Best Model Details: Random Forest
+======================================================================
+
+Classification Report:
+              precision    recall  f1-score   support
+
+ Low Quality       0.78      0.93      0.85        15
+High Quality       0.80      0.50      0.62         8
+
+    accuracy                           0.78        23
+   macro avg       0.79      0.72      0.73        23
+weighted avg       0.79      0.78      0.77        23
