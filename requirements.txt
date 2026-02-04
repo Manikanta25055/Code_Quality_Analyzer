@@ -6,3 +6,4 @@ seaborn>=0.13.0
 requests>=2.31.0
 PyGithub>=2.1.0
 radon>=6.0.0
+PyQt5>=5.15.0

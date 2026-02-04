@@ -1,0 +1,52 @@
+======================================================================
+DATA PATTERN ANALYSIS REPORT
+Linear vs Non-Linear Classification
+======================================================================
+
+DATASET OVERVIEW
+----------------------------------------------------------------------
+Total samples: 112
+Total features: 22
+Class 0 (Low Quality): 74
+Class 1 (High Quality): 38
+
+LINEARITY ANALYSIS
+----------------------------------------------------------------------
+
+1. PCA Analysis:
+   - First 2 components explain: 48.80%
+   - Components for 95% variance: 14 out of 22
+   - INTERPRETATION: High dimensionality (14 components)
+                     Suggests strong NON-LINEAR patterns
+
+2. Class Separability:
+   - Euclidean distance between class centroids: 2.0550
+   - INTERPRETATION: Classes are CLOSE together
+                     May require NON-LINEAR decision boundaries
+
+3. Model Performance (from training):
+
+   Linear Models:
+
+   Non-Linear Models:
+     - Random Forest (Tuned): 0.7391
+     - SVM (RBF Kernel): 0.7391
+     - Neural Network (MLP): 0.6522
+
+   - Best Linear Model: 0.0000
+   - Best Non-Linear Model: 0.7391
+   - INTERPRETATION: Non-linear models perform significantly better
+                     Data has STRONG NON-LINEAR patterns
+
+======================================================================
+FINAL CONCLUSION
+======================================================================
+
+Pattern Type: NON-LINEAR
+
+Primary Reason: High PCA dimensionality (14 components needed)
+
+Recommendation:
+  - Use NON-LINEAR models (SVM with RBF, Random Forest, Neural Networks)
+  - Consider ensemble methods combining multiple model types
+  - Feature engineering may help improve linear model performance

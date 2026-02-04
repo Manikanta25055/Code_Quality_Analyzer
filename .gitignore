@@ -40,6 +40,9 @@ wheels/
 # Data files (large repos)
 data/raw_repos/*
 !data/raw_repos/.gitkeep
+data/temp_clones/
+data/output_phase_2.txt
+data/failed_repos_reason_list.txt
 
 # Models (allow small trained models for reproducibility)
 # models/*.pkl  # Commented out to include trained models in repo
